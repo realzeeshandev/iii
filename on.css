@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+    color: white;
+}
+.header
+{
+    width: 105%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding:10px 8% ;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0 ;
+}
+.logo
+{
+    width: 350px;
+    cursor: pointer;
+}
+nav button{
+             border: 0;
+             outline: 0;
+             background: #db0001;
+             color: #fff;
+             padding: 7px 10px;
+             font-size: 12px;
+             border-radius: 4px;
+             margin: 14px;
+             cursor: pointer;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-signup{
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+
+}
+
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+.reasons {
+    width: 90%;
+    margin: 60px auto;
+}
+
+.reasons h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 260px;
+    padding: 30px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #1e1b3a, #2a1745);
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #cfcfcf;
+    line-height: 1.6;
+}
+
+/* Icon styles */
+.icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* Different gradient icons */
+.tv {
+    background: radial-gradient(circle, #ff00cc, #3333ff);
+}
+
+.download {
+    background: radial-gradient(circle, #ff5f6d, #ffc371);
+}
+
+.watch {
+    background: radial-gradient(circle, #00f2fe, #4facfe);
+}
+
+.kids {
+    background: radial-gradient(circle, #ff9a9e, #fad0c4);
+}
+.footer-content{
+   position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom:200px ;
+
+    
+}
